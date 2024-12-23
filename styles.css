@@ -45,9 +45,25 @@ body {
             background-color: blue;
         }
 
-        img {
-            display: block;
-            margin: 0 auto;
-            max-width: 100%;
-            height: auto;
-        }
+        #table-3 {
+    width: 100%; /* Adjust the table width */
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#t-image img {
+    width: 100%; /* Ensure the image scales properly */
+    max-width: 400px; /* Limit the max width of the image */
+}
+
+.left-box,
+.right-box {
+    width: 50px; /* Adjust width of the boxes */
+    background-color: lightgray; /* Add a background color */
+    height: 100%; /* Stretch to match the image height */
+    border: 1px solid #ccc; /* Optional: Add a border */
+}
+
+.middle td {
+    vertical-align: middle;
+}
